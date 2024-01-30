@@ -1,0 +1,28 @@
+.nav-firstName {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.me-auto {
+    gap: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+    .me-auto {
+        gap: 0px;
+    }
+}
